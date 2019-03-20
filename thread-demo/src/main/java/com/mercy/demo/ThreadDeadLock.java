@@ -1,8 +1,10 @@
 package com.mercy.demo;
 
 /**
- * @auther: YAO
- * @date: 2019/3/18 19:10
+ * 死锁例子
+ *
+ * @author Mercy yao
+ * @date 2019/3/18 19:10
  */
 public class ThreadDeadLock {
 
