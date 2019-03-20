@@ -44,6 +44,5 @@ public class ThreadDeadLock {
 
         thread1.start();
         thread2.start();
-        System.out.println("1");
     }
 }
