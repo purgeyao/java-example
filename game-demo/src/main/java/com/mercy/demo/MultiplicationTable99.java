@@ -1,6 +1,8 @@
 package com.mercy.demo;
 
 /**
+ * 99乘法表
+ *
  * @author Mercy yao
  * @version 1.0
  * @date 2019/3/20 19
