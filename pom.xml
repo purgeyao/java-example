@@ -6,6 +6,7 @@
     <modules>
         <module>thread-demo</module>
         <module>game-demo</module>
+        <module>juc-query-list-map-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
