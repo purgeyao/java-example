@@ -51,7 +51,7 @@ public class ReentrantLockDemo {
         countDownLatch.await();
         executorService.shutdown();
 
-        System.out.println(reentrantLockList.array.size());
+        System.out.println(reentrantLockList.size());
 
     }
 
@@ -108,6 +108,16 @@ public class ReentrantLockDemo {
             lock.lock();
             try {
                 return array.get(index);
+            } finally {
+                lock.unlock();
+            }
+        }
+
+        public Integer size(){
+
+            lock.lock();
+            try {
+                return array.size();
             } finally {
                 lock.unlock();
             }
