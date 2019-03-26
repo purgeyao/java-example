@@ -8,6 +8,7 @@
         <module>game-demo</module>
         <module>juc-query-list-map-demo</module>
         <module>lock-demo</module>
+        <module>garbage-collection</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
