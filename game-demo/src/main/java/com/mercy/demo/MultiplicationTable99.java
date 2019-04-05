@@ -17,5 +17,6 @@ public class MultiplicationTable99 {
                 System.out.printf("%d * %d = %d \t",i, j, i*j);
             }
         }
+
     }
 }
