@@ -9,6 +9,7 @@
         <module>juc-query-list-map-demo</module>
         <module>lock-demo</module>
         <module>garbage-collection</module>
+        <module>lambda</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -37,6 +38,13 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+        </dependency>
+
     </dependencies>
 
     <build>
