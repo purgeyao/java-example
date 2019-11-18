@@ -10,6 +10,8 @@
         <module>lock-demo</module>
         <module>garbage-collection</module>
         <module>lambda</module>
+        <module>agent</module>
+        <module>proxy</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
