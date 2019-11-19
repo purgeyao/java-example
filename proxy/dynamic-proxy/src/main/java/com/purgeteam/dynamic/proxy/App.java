@@ -1,6 +1,5 @@
 package com.purgeteam.dynamic.proxy;
 
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
 /**
